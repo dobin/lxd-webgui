@@ -6,7 +6,7 @@ angular.module('myApp.container')
             var obj = {};
 
             obj.isOperationFinished = function (operationUrl) {
-                return $http.get(SettingServices.getLxdApiUrl() + operationUrl);
+                return $http.get(SettingServices.getLxdUrl() + operationUrl);
             };
 
 
